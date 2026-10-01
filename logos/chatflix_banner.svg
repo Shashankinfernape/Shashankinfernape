@@ -2,7 +2,7 @@
   <defs>
     <!-- Glassy Drop Shadow -->
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.4" />
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.4" />
     </filter>
 
     <!-- Dark Mode Gradient -->
@@ -14,17 +14,23 @@
     <!-- Light Mode Gradient (Handesk) -->
     <linearGradient id="bg-light" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#f0f2f5" />
+      <stop offset="100%" stop-color="#f5f5f7" />
     </linearGradient>
+
+    <!-- Clip Paths for beautifully rounded images -->
+    <clipPath id="card-clip">
+      <rect x="10" y="10" width="780" height="180" rx="20"/>
+    </clipPath>
+    <clipPath id="logo-clip">
+      <rect x="560" y="25" width="210" height="150" rx="14"/>
+    </clipPath>
 
     <style>
       .title-dark { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 800; fill: #ffffff; letter-spacing: 0.5px; }
-      .desc-dark { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #a1a1a6; line-height: 1.5; font-weight: 500; }
-      .bg-text-dark { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 130px; font-weight: 900; fill: rgba(255, 255, 255, 0.15); }
+      .desc-dark { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #a1a1a6; line-height: 1.6; font-weight: 500; }
       
       .title-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 800; fill: #1d1d1f; letter-spacing: 0.5px; }
-      .desc-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #515154; line-height: 1.5; font-weight: 500; }
-      .bg-text-light { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 130px; font-weight: 900; fill: rgba(0, 0, 0, 0.05); }
+      .desc-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #515154; line-height: 1.6; font-weight: 500; }
     </style>
   </defs>
 
@@ -34,13 +40,15 @@
   <!-- Subtle Top Inner Highlight for Glassy Apple look -->
   <path d="M 30 11 L 770 11 C 780.5 11 789 19.5 789 30 L 789 50 C 789 19.5 780.5 11 770 11 L 30 11 C 19.5 11 11 19.5 11 30 L 11 50 C 11 19.5 19.5 11 30 11 Z" fill="#ffffff" opacity="0.6"/>
 
-  <!-- Background Watermark -->
-  <text class="bg-text-dark" x="150" y="145">CHATFLIX</text>
+  <!-- Background / Logo Area -->
+  <g transform="translate(610, 40) scale(5)"><path fill="#E50914" opacity="0.4" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 9.5l-6 3.5v-7l6 3.5z"/></g>
 
   <!-- Foreground Text -->
-  <g transform="translate(45, 75)">
+  <g transform="translate(45, 65)">
     <text class="title-dark" x="0" y="0">❖ CHATFLIX</text>
-    <text class="desc-dark" x="0" y="38">A full-stack real-time messaging ecosystem featuring a Netflix-inspired interface. Powered</text>
-    <text class="desc-dark" x="0" y="63">by advanced JWT authentication protocols and seamless Socket.io integration.</text>
+    <text class="desc-dark" x="0" y="35">A full-stack real-time messaging ecosystem featuring a</text>
+    <text class="desc-dark" x="0" y="59">Netflix-inspired interface. Powered by advanced JWT</text>
+    <text class="desc-dark" x="0" y="83">authentication protocols and seamless Socket.io integration.</text>
+    
   </g>
 </svg>
