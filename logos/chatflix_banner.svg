@@ -1,0 +1,18 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 800; fill: #E2B714; }
+      .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9c9c9; line-height: 1.5; }
+      .bg-text { font-family: 'Impact', sans-serif; font-size: 120px; font-weight: 900; fill: rgba(255, 255, 255, 0.03); }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="#0D1117" rx="8"/>
+  
+  <text class="bg-text" x="150" y="150">CHATFLIX</text>
+
+  <g transform="translate(40, 70)">
+    <text class="title" x="0" y="0">❖ CHATFLIX</text>
+    <text class="desc" x="0" y="40">A full-stack real-time messaging ecosystem featuring a Netflix-inspired interface. Powered</text>
+    <text class="desc" x="0" y="65">by advanced JWT authentication protocols and seamless Socket.io integration.</text>
+  </g>
+</svg>
