@@ -19,7 +19,7 @@
 <br/>
 <a href="https://github.com/Shashankinfernape/Handesk/releases/latest">📦 Download Latest Release</a>
 
-<br/><br/><br/>
+<br/><hr/><br/>
 
 <a href="https://github.com/Shashankinfernape/Chatflix">
   <img src="logos/chatflix_banner.svg" width="800" alt="Chatflix">
@@ -27,7 +27,7 @@
 <br/>
 <a href="https://github.com/Shashankinfernape/Chatflix/releases/latest">📦 Download Latest Release</a>
 
-<br/><br/><br/>
+<br/><hr/><br/>
 
 <a href="https://github.com/Shashankinfernape/Slidepaper">
   <img src="logos/slidepapers_banner.svg" width="800" alt="Slidepapers">
@@ -35,7 +35,7 @@
 <br/>
 <a href="https://github.com/Shashankinfernape/Slidepaper/releases/latest">📦 Download Latest Release</a>
 
-<br/><br/><br/>
+<br/><hr/><br/>
 
 <a href="https://github.com/Shashankinfernape/Examinar">
   <img src="logos/examinar_banner.svg" width="800" alt="Examinar">
@@ -43,7 +43,7 @@
 <br/>
 <a href="https://github.com/Shashankinfernape/Examinar/releases/latest">📦 Download Latest Release</a>
 
-<br/><br/><br/>
+<br/><hr/><br/>
 
 <a href="https://github.com/Shashankinfernape/Territory">
   <img src="logos/territory_banner.svg" width="800" alt="Territory">
@@ -51,7 +51,7 @@
 <br/>
 <a href="https://github.com/Shashankinfernape/Territory/releases/latest">📦 Download Latest Release</a>
 
-<br/><br/><br/>
+<br/><hr/><br/>
 
 <a href="https://github.com/Shashankinfernape/SSTRAESS">
   <img src="logos/sstraess_banner.svg" width="800" alt="SSTRAESS">

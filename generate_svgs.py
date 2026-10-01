@@ -48,7 +48,7 @@ svg_template = """<svg width="800" height="200" xmlns="http://www.w3.org/2000/sv
       .bg-text {{ font-family: 'Impact', sans-serif; font-size: 120px; font-weight: 900; fill: rgba(255, 255, 255, 0.03); }}
     </style>
   </defs>
-  <rect width="100%" height="100%" fill="#0D1117" rx="8"/>
+  <rect x="2" y="2" width="796" height="196" fill="#161b22" stroke="#30363d" stroke-width="2" rx="12"/>
   
   {bg_content}
 
