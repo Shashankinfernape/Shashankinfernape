@@ -1,17 +1,10 @@
 <div align="center">
-  <img src="hero_banner.jpg" alt="Hero Banner" width="100%">
+  <img src="banner.png" alt="Hero Banner" width="100%">
 </div>
 
 <br/>
 
-<div align="center">
-  <h1 align="center">KISH / DEVELOPER</h1>
-  <h3 align="center">Software · AI · Systems · Robotics</h3>
-</div>
-
-<br/>
-
-> **Currently building:** Exploring advanced system architectures and robotic AI. <br>
+> **Currently building:** Exploring advanced system architectures and AI tools. <br>
 > **Focus:** Full-stack scalable applications and high-performance engineering.
 
 <br/>
@@ -31,8 +24,8 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="#">❖ GEKO 2</a></h4>
-      <p>Advanced system monitoring or automation tool. Focused on internal process tracking and deployment workflows.</p>
+      <h4><a href="https://github.com/Shashankinfernape/Slidepaper">❖ SLIDEPAPERS</a></h4>
+      <p>A seamless presentation and documentation tool designed for clean, interactive content delivery and developer workflows.</p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Examinar">❖ EXAMINAR</a></h4>
@@ -74,20 +67,7 @@
 
 <br/>
 
-### ✦ CONTRIBUTION ACTIVITY
-
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shashankinfernape/Shashankinfernape/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shashankinfernape/Shashankinfernape/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Shashankinfernape/Shashankinfernape/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="mailto:your.email@example.com">Contact</a> •
-  <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
-  <a href="https://yourportfolio.com">Portfolio</a>
+  <a href="https://www.linkedin.com/in/shashankinfernape">LinkedIn</a> •
+  <a href="https://instagram.com/infernapebitxh">Instagram</a>
 </div>
