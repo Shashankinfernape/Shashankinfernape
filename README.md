@@ -63,7 +63,7 @@
   <tr>
     <td width="20%" align="center" valign="middle">
       <a href="https://github.com/Shashankinfernape/Territory">
-        <img src="logos/territory.svg" width="80" alt="Territory">
+        <img src="logos/territory.png" width="140" alt="Territory">
       </a>
     </td>
     <td width="80%">
