@@ -48,13 +48,13 @@
   </a>
 
   <!-- 6. Title and Description -->
-  <text x="35" y="52"
-    font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Roboto,sans-serif"
-    font-size="26" font-weight="800" fill="#1d1d1f" letter-spacing="0.5">❖ HANDESK (DirectLink)</text>
+  <text x="35" y="50"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif"
+    font-size="24" font-weight="700" fill="#1d1d1f" letter-spacing="1">❖ HANDESK (DirectLink)</text>
   
-  <g transform="translate(35, 72)">
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#515154" font-weight="500" x="0" y="45">High-performance remote desktop infrastructure delivering</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#515154" font-weight="500" x="0" y="71">ultra-low latency screensharing. Engineered for direct</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#515154" font-weight="500" x="0" y="97">systems access and highly reliable control operations.</text>
+  <g transform="translate(35, 70)">
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#515154" font-weight="400" letter-spacing="0.2" x="0" y="42">High-performance remote desktop infrastructure delivering</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#515154" font-weight="400" letter-spacing="0.2" x="0" y="66">ultra-low latency screensharing. Engineered for direct systems</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#515154" font-weight="400" letter-spacing="0.2" x="0" y="90">access and highly reliable control operations.</text>
   </g>
 </svg>

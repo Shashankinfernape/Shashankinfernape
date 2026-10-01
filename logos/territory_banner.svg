@@ -46,13 +46,13 @@
   </a>
 
   <!-- 6. Title and Description -->
-  <text x="35" y="52"
-    font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Roboto,sans-serif"
-    font-size="26" font-weight="800" fill="#ffffff" letter-spacing="0.5">❖ TERRITORY</text>
+  <text x="35" y="50"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif"
+    font-size="24" font-weight="700" fill="#ffffff" letter-spacing="1">❖ TERRITORY</text>
   
-  <g transform="translate(35, 72)">
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="45">Advanced TypeScript-based architectural framework managing</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="71">complex application state. Optimizes real-time location</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="97">tracking algorithms and data sync for user clusters.</text>
+  <g transform="translate(35, 70)">
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="42">Advanced TypeScript-based architectural framework managing</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="66">complex application state. Optimizes real-time location</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="90">tracking algorithms and data sync for user clusters.</text>
   </g>
 </svg>

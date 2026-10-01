@@ -110,10 +110,10 @@ def make_svg(p):
   <text x="20" y="200" font-family="Impact, 'Arial Black', sans-serif" font-size="160" font-weight="900" fill="{bg_text_fill}" clip-path="url(#card-clip-{p['id']})">{p['title'].split(' ')[0]}</text>'''
 
     # Text wrapping
-    wrapped = textwrap.wrap(p["desc"], width=60)
+    wrapped = textwrap.wrap(p["desc"], width=62)
     desc_lines_svg = ""
     for i, line in enumerate(wrapped):
-        desc_lines_svg += f'\n    <text font-family="-apple-system,BlinkMacSystemFont,\'Segoe UI\',Roboto,sans-serif" font-size="16" fill="{desc_fill}" font-weight="500" x="0" y="{45 + i * 26}">{line}</text>'
+        desc_lines_svg += f'\n    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI Variable Display\', \'Segoe UI\', \'Helvetica Neue\', sans-serif" font-size="15" fill="{desc_fill}" font-weight="400" letter-spacing="0.2" x="0" y="{42 + i * 24}">{line}</text>'
 
     svg = f'''<svg width="{W}" height="{H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -162,11 +162,11 @@ def make_svg(p):
   </a>
 
   <!-- 6. Title and Description -->
-  <text x="35" y="52"
-    font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Roboto,sans-serif"
-    font-size="26" font-weight="800" fill="{title_fill}" letter-spacing="0.5">❖ {p['title']}</text>
+  <text x="35" y="50"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, \'Segoe UI Variable Display\', \'Segoe UI\', \'Helvetica Neue\', sans-serif"
+    font-size="24" font-weight="700" fill="{title_fill}" letter-spacing="1">❖ {p['title']}</text>
   
-  <g transform="translate(35, 72)">{desc_lines_svg}
+  <g transform="translate(35, 70)">{desc_lines_svg}
   </g>
 </svg>'''
     return svg
