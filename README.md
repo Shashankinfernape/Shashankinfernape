@@ -15,31 +15,31 @@
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Handesk">❖ HANDESK (DirectLink)</a></h4>
-      <p>High-performance remote desktop software offering low-latency screensharing and control capabilities. Built for direct access and reliability.</p>
+      <p>High-performance remote desktop infrastructure delivering ultra-low latency screensharing. Engineered for direct systems access and highly reliable control operations.</p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Chatflix">❖ CHATFLIX</a></h4>
-      <p>A multi-platform real-time messaging ecosystem. Features a custom JWT authentication system, Socket.io integration, and Netflix-inspired UI.</p>
+      <p>A full-stack real-time messaging ecosystem featuring a Netflix-inspired interface. Powered by advanced JWT authentication protocols and seamless Socket.io integration.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Slidepaper">❖ SLIDEPAPERS</a></h4>
-      <p>A seamless presentation and documentation tool designed for clean, interactive content delivery and developer workflows.</p>
+      <p>A dynamic documentation and presentation engine tailored for software developers. Built to streamline interactive content delivery and optimize complex visualizations.</p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Examinar">❖ EXAMINAR</a></h4>
-      <p>Mobile/Web assessment platform built with Dart. Secure testing environments with real-time analytics.</p>
+      <p>A cross-platform assessment environment engineered with the robust Dart framework. Provides highly secure testing parameters alongside comprehensive real-time metrics.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/Territory">❖ TERRITORY</a></h4>
-      <p>TypeScript-based architecture managing complex state and location tracking for user clusters.</p>
+      <p>Advanced TypeScript-based architectural framework managing complex application state. Optimizes real-time location tracking algorithms and data sync for user clusters.</p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Shashankinfernape/SSTRAESS">❖ SSTRAESS</a></h4>
-      <p>High-intensity stress testing and UI-updated tracking application.</p>
+      <p>High-intensity load testing and system stress simulation architectural framework. Features modernized UI tracking mechanisms to monitor active system threshold limits.</p>
     </td>
   </tr>
 </table>
