@@ -11,35 +11,77 @@
 
 ### ✦ FEATURED PROJECTS
 
-<table align="center">
+<table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/Handesk">
+        <img src="logos/handesk.png" width="80" alt="Handesk">
+      </a>
+    </td>
+    <td width="80%">
       <h4><a href="https://github.com/Shashankinfernape/Handesk">❖ HANDESK (DirectLink)</a></h4>
       <p>High-performance remote desktop infrastructure delivering ultra-low latency screensharing. Engineered for direct systems access and highly reliable control operations.</p>
+      <a href="https://github.com/Shashankinfernape/Handesk/releases/latest">📦 Download Latest Release</a>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/Chatflix">
+        <img src="https://skillicons.dev/icons?i=react&theme=dark" width="60" alt="Chatflix">
+      </a>
+    </td>
+    <td width="80%">
       <h4><a href="https://github.com/Shashankinfernape/Chatflix">❖ CHATFLIX</a></h4>
       <p>A full-stack real-time messaging ecosystem featuring a Netflix-inspired interface. Powered by advanced JWT authentication protocols and seamless Socket.io integration.</p>
+      <a href="https://github.com/Shashankinfernape/Chatflix/releases/latest">📦 Download Latest Release</a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/Slidepaper">
+        <img src="logos/slidepapers.png" width="80" alt="Slidepapers">
+      </a>
+    </td>
+    <td width="80%">
       <h4><a href="https://github.com/Shashankinfernape/Slidepaper">❖ SLIDEPAPERS</a></h4>
       <p>A dynamic documentation and presentation engine tailored for software developers. Built to streamline interactive content delivery and optimize complex visualizations.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Shashankinfernape/Examinar">❖ EXAMINAR</a></h4>
-      <p>A cross-platform assessment environment engineered with the robust Dart framework. Provides highly secure testing parameters alongside comprehensive real-time metrics.</p>
+      <a href="https://github.com/Shashankinfernape/Slidepaper/releases/latest">📦 Download Latest Release</a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/Examinar">
+        <img src="logos/examinar.png" width="80" alt="Examinar">
+      </a>
+    </td>
+    <td width="80%">
+      <h4><a href="https://github.com/Shashankinfernape/Examinar">❖ EXAMINAR</a></h4>
+      <p>A cross-platform assessment environment engineered with the robust Dart framework. Provides highly secure testing parameters alongside comprehensive real-time metrics.</p>
+      <a href="https://github.com/Shashankinfernape/Examinar/releases/latest">📦 Download Latest Release</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/Territory">
+        <img src="logos/territory.svg" width="80" alt="Territory">
+      </a>
+    </td>
+    <td width="80%">
       <h4><a href="https://github.com/Shashankinfernape/Territory">❖ TERRITORY</a></h4>
       <p>Advanced TypeScript-based architectural framework managing complex application state. Optimizes real-time location tracking algorithms and data sync for user clusters.</p>
+      <a href="https://github.com/Shashankinfernape/Territory/releases/latest">📦 Download Latest Release</a>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="20%" align="center" valign="middle">
+      <a href="https://github.com/Shashankinfernape/SSTRAESS">
+        <img src="https://skillicons.dev/icons?i=ts&theme=dark" width="60" alt="SSTRAESS">
+      </a>
+    </td>
+    <td width="80%">
       <h4><a href="https://github.com/Shashankinfernape/SSTRAESS">❖ SSTRAESS</a></h4>
       <p>High-intensity load testing and system stress simulation architectural framework. Features modernized UI tracking mechanisms to monitor active system threshold limits.</p>
+      <a href="https://github.com/Shashankinfernape/SSTRAESS/releases/latest">📦 Download Latest Release</a>
     </td>
   </tr>
 </table>
