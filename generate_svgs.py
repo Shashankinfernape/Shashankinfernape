@@ -6,7 +6,7 @@ projects = [
         "id": "handesk",
         "title": "HANDESK (DirectLink)",
         "desc": "High-performance remote desktop infrastructure delivering ultra-low latency screensharing. Engineered for direct systems access and highly reliable control operations.",
-        "logo_path": "logos/handesk.png"
+        "logo_path": "logos/handesk.jpg"
     },
     {
         "id": "chatflix",
@@ -24,7 +24,7 @@ projects = [
         "id": "examinar",
         "title": "EXAMINAR",
         "desc": "A cross-platform assessment environment engineered with the robust Dart framework. Provides highly secure testing parameters alongside comprehensive real-time metrics.",
-        "logo_path": None
+        "logo_path": "logos/examinar.png"
     },
     {
         "id": "territory",
@@ -45,7 +45,7 @@ svg_template = """<svg width="800" height="200" xmlns="http://www.w3.org/2000/sv
     <style>
       .title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 800; fill: #E2B714; }}
       .desc {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; fill: #c9c9c9; line-height: 1.5; }}
-      .bg-text {{ font-family: 'Impact', sans-serif; font-size: 120px; font-weight: 900; fill: rgba(255, 255, 255, 0.03); }}
+      .bg-text {{ font-family: 'Impact', sans-serif; font-size: 120px; font-weight: 900; fill: rgba(255, 255, 255, 0.05); }}
     </style>
   </defs>
   <rect x="2" y="2" width="796" height="196" fill="#161b22" stroke="#30363d" stroke-width="2" rx="12"/>
@@ -64,9 +64,19 @@ for p in projects:
     if p["logo_path"] and os.path.exists(p["logo_path"]):
         with open(p["logo_path"], "rb") as f:
             b64 = base64.b64encode(f.read()).decode('utf-8')
-            ext = p["logo_path"].split('.')[-1]
-            mime = "image/png" if ext == "png" else "image/svg+xml"
-            bg_content = f'<image href="data:{mime};base64,{b64}" x="500" y="-50" width="300" height="300" opacity="0.1" />'
+            ext = p["logo_path"].split('.')[-1].lower()
+            if ext == "jpg" or ext == "jpeg":
+                mime = "image/jpeg"
+            elif ext == "png":
+                mime = "image/png"
+            else:
+                mime = "image/svg+xml"
+            
+            # Special layout for Territory to use it "like a banner"
+            if p["id"] == "territory":
+                bg_content = f'<image href="data:{mime};base64,{b64}" x="0" y="0" width="800" height="200" preserveAspectRatio="xMidYMid slice" opacity="0.25" />'
+            else:
+                bg_content = f'<image href="data:{mime};base64,{b64}" x="500" y="-50" width="300" height="300" preserveAspectRatio="xMidYMid slice" opacity="0.25" />'
     elif p["id"] == "sstraess":
         bg_content = '<text class="bg-text" x="150" y="150">SSTRAESS</text>'
     else:
