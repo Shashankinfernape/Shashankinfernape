@@ -13,51 +13,17 @@
 
 <div align="center">
 
-<a href="https://github.com/Shashankinfernape/Handesk">
-  <img src="logos/handesk_banner.svg" width="800" alt="Handesk">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/Handesk/releases/latest">📦 Download Latest Release</a>
+<a href="https://github.com/Shashankinfernape/Handesk"><img src="logos/handesk_banner.svg" width="820" alt="Handesk"/></a>
 
-<br/><hr/><br/>
+<a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_banner.svg" width="820" alt="Chatflix"/></a>
 
-<a href="https://github.com/Shashankinfernape/Chatflix">
-  <img src="logos/chatflix_banner.svg" width="800" alt="Chatflix">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/Chatflix/releases/latest">📦 Download Latest Release</a>
+<a href="https://github.com/Shashankinfernape/Slidepaper"><img src="logos/slidepapers_banner.svg" width="820" alt="Slidepapers"/></a>
 
-<br/><hr/><br/>
+<a href="https://github.com/Shashankinfernape/Examinar"><img src="logos/examinar_banner.svg" width="820" alt="Examinar"/></a>
 
-<a href="https://github.com/Shashankinfernape/Slidepaper">
-  <img src="logos/slidepapers_banner.svg" width="800" alt="Slidepapers">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/Slidepaper/releases/latest">📦 Download Latest Release</a>
+<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_banner.svg" width="820" alt="Territory"/></a>
 
-<br/><hr/><br/>
-
-<a href="https://github.com/Shashankinfernape/Examinar">
-  <img src="logos/examinar_banner.svg" width="800" alt="Examinar">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/Examinar/releases/latest">📦 Download Latest Release</a>
-
-<br/><hr/><br/>
-
-<a href="https://github.com/Shashankinfernape/Territory">
-  <img src="logos/territory_banner.svg" width="800" alt="Territory">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/Territory/releases/latest">📦 Download Latest Release</a>
-
-<br/><hr/><br/>
-
-<a href="https://github.com/Shashankinfernape/SSTRAESS">
-  <img src="logos/sstraess_banner.svg" width="800" alt="SSTRAESS">
-</a>
-<br/>
-<a href="https://github.com/Shashankinfernape/SSTRAESS/releases/latest">📦 Download Latest Release</a>
+<a href="https://github.com/Shashankinfernape/SSTRAESS"><img src="logos/sstraess_banner.svg" width="820" alt="SSTRAESS"/></a>
 
 </div>
 

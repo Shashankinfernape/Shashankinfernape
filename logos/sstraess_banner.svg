@@ -1,54 +1,53 @@
-<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="820" height="230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Glassy Drop Shadow -->
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.4" />
+    <linearGradient id="bg-grad-sstraess" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#232326"/>
+      <stop offset="100%" stop-color="#141415"/>
+    </linearGradient>
+    <!-- Subtle inner glow for glass feel -->
+    <linearGradient id="hl-grad-sstraess" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="shadow-sstraess" x="-3%" y="-3%" width="106%" height="118%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="rgba(0,0,0,0.55)"/>
     </filter>
-
-    <!-- Dark Mode Gradient -->
-    <linearGradient id="bg-dark" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2c2c2e" />
-      <stop offset="100%" stop-color="#151516" />
-    </linearGradient>
-
-    <!-- Light Mode Gradient (Handesk) -->
-    <linearGradient id="bg-light" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="100%" stop-color="#f5f5f7" />
-    </linearGradient>
-
-    <!-- Clip Paths for beautifully rounded images -->
-    <clipPath id="card-clip">
-      <rect x="10" y="10" width="780" height="180" rx="20"/>
-    </clipPath>
-    <clipPath id="logo-clip">
-      <rect x="560" y="25" width="210" height="150" rx="14"/>
-    </clipPath>
-
-    <style>
-      .title-dark { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 800; fill: #ffffff; letter-spacing: 0.5px; }
-      .desc-dark { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #a1a1a6; line-height: 1.6; font-weight: 500; }
-      
-      .title-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 24px; font-weight: 800; fill: #1d1d1f; letter-spacing: 0.5px; }
-      .desc-light { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; fill: #515154; line-height: 1.6; font-weight: 500; }
-    </style>
+    
   </defs>
 
-  <!-- Glassy Base -->
-  <rect x="10" y="10" width="780" height="180" fill="url(#bg-dark)" rx="20" filter="url(#shadow)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" />
+  <!-- Main card body -->
+  <rect x="8" y="8" width="804" height="214"
+    rx="22" fill="url(#bg-grad-sstraess)"
+    stroke="rgba(255,255,255,0.10)" stroke-width="1.5"
+    filter="url(#shadow-sstraess)"/>
+
+  <!-- Top glass sheen -->
+  <rect x="8" y="8" width="804" height="107"
+    rx="22" fill="url(#hl-grad-sstraess)"/>
+
+  <!-- Hairline top border highlight -->
+  <rect x="9.5" y="9.5" width="801" height="4" rx="4" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Logo or BG -->
   
-  <!-- Subtle Top Inner Highlight for Glassy Apple look -->
-  <path d="M 30 11 L 770 11 C 780.5 11 789 19.5 789 30 L 789 50 C 789 19.5 780.5 11 770 11 L 30 11 C 19.5 11 11 19.5 11 30 L 11 50 C 11 19.5 19.5 11 30 11 Z" fill="#ffffff" opacity="0.6"/>
 
-  <!-- Background / Logo Area -->
-  <g transform="translate(590, 40) scale(4.5)"><path fill="#E2B714" opacity="0.25" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H3V5h18v14zM9.5 15.5L13 11l2.5 3.5L20 8.5 18.5 7 15.5 11l-2.5-3.5L9 12.5 7.5 9 4 14l1.5 1.5L9.5 12z"/></g>
+  <!-- Action icon pill (top right) -->
+  <a href="https://github.com/Shashankinfernape/SSTRAESS/releases/latest">
+    <rect x="744" y="14" width="62" height="32" rx="16" fill="rgba(25,118,210,0.10)"/>
+    <g transform="translate(756, 18) scale(0.83)">
+      <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" fill="#1976D2"/>
+    </g>
+  </a>
 
-  <!-- Foreground Text -->
-  <g transform="translate(45, 65)">
-    <text class="title-dark" x="0" y="0">❖ SSTRAESS</text>
-    <text class="desc-dark" x="0" y="35">High-intensity load testing and system stress simulation</text>
-    <text class="desc-dark" x="0" y="59">architectural framework. Features modernized UI tracking</text>
-    <text class="desc-dark" x="0" y="83">mechanisms to monitor active system threshold limits.</text>
-    
+  <!-- Project title -->
+  <text x="34" y="52"
+    font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Roboto,sans-serif"
+    font-size="22" font-weight="800" fill="#f5f5f7" letter-spacing="0.4">❖ SSTRAESS</text>
+
+  <!-- Description text -->
+  <g transform="translate(34, 68)">
+    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="42">High-intensity load testing and system stress simulation</text>
+    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="66">architectural framework. Features modernized UI tracking</text>
+    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="90">mechanisms to monitor active system threshold limits.</text>
   </g>
 </svg>
