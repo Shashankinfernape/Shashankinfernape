@@ -1,54 +1,57 @@
 <svg width="820" height="230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
+    <!-- Base Card Clip Path -->
+    <clipPath id="card-clip-chatflix">
+      <rect x="8" y="8" width="804" height="214" rx="22"/>
+    </clipPath>
+
+    <!-- Gradients and Shadows -->
     <linearGradient id="bg-grad-chatflix" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="#232326"/>
       <stop offset="100%" stop-color="#141415"/>
     </linearGradient>
-    <!-- Subtle inner glow for glass feel -->
     <linearGradient id="hl-grad-chatflix" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="rgba(255,255,255,0.07)"/>
+      <stop offset="0%"   stop-color="rgba(255,255,255,0.1)"/>
       <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
     </linearGradient>
-    <filter id="shadow-chatflix" x="-3%" y="-3%" width="106%" height="118%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="rgba(0,0,0,0.55)"/>
+    <filter id="shadow-chatflix" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="rgba(0,0,0,0.6)"/>
     </filter>
-    
   </defs>
 
-  <!-- Main card body -->
+  <!-- 1. Drop Shadow & Base Glass Layer -->
   <rect x="8" y="8" width="804" height="214"
     rx="22" fill="url(#bg-grad-chatflix)"
-    stroke="rgba(255,255,255,0.10)" stroke-width="1.5"
+    stroke="rgba(255,255,255,0.15)" stroke-width="2"
     filter="url(#shadow-chatflix)"/>
 
-  <!-- Top glass sheen -->
+  <!-- 2. Premium Background Watermarks (Logos / Title) -->
+  <text x="20" y="200" font-family="Impact, 'Arial Black', sans-serif" font-size="160" font-weight="900" fill="rgba(255,255,255,0.04)" clip-path="url(#card-clip-chatflix)">CHATFLIX</text>
+
+  <!-- 3. Top Glass Sheen Highlight -->
   <rect x="8" y="8" width="804" height="107"
     rx="22" fill="url(#hl-grad-chatflix)"/>
+  <rect x="9.5" y="9.5" width="801" height="3" rx="3" fill="rgba(255,255,255,0.4)"/>
 
-  <!-- Hairline top border highlight -->
-  <rect x="9.5" y="9.5" width="801" height="4" rx="4" fill="rgba(255,255,255,0.5)"/>
-
-  <!-- Logo or BG -->
+  <!-- 4. Foreground Sharp Logo (if applicable) -->
   
 
-  <!-- Action icon pill (top right) -->
+  <!-- 5. Action Pill (Top Right) -->
   <a href="https://github.com/Shashankinfernape/Chatflix">
-    <rect x="744" y="14" width="62" height="32" rx="16" fill="rgba(67,160,71,0.10)"/>
-    <g transform="translate(756, 18) scale(0.83)">
-      <path d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" fill="#43A047"/>
+    <rect x="744" y="16" width="60" height="34" rx="17" fill="rgba(52,199,89,0.12)"/>
+    <g transform="translate(757, 21) scale(0.85)">
+      <path d="M3.9,12C3.9,10.29 5.29,8.9 7,8.9H11V7H7A5,5 0 0,0 2,12A5,5 0 0,0 7,17H11V15.1H7C5.29,15.1 3.9,13.71 3.9,12M8,13H16V11H8V13M17,7H13V8.9H17C18.71,8.9 20.1,10.29 20.1,12C20.1,13.71 18.71,15.1 17,15.1H13V17H17A5,5 0 0,0 22,12A5,5 0 0,0 17,7Z" fill="#34C759"/>
     </g>
   </a>
 
-  <!-- Project title -->
-  <text x="34" y="52"
+  <!-- 6. Title and Description -->
+  <text x="35" y="52"
     font-family="-apple-system,BlinkMacSystemFont,'SF Pro Display',Roboto,sans-serif"
-    font-size="22" font-weight="800" fill="#f5f5f7" letter-spacing="0.4">❖ CHATFLIX</text>
-
-  <!-- Description text -->
-  <g transform="translate(34, 68)">
-    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="42">A full-stack real-time messaging ecosystem featuring a</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="66">Netflix-inspired interface. Powered by advanced JWT</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="90">authentication protocols and seamless Socket.io</text>
-    <text font-family="-apple-system,BlinkMacSystemFont,'SF Pro Text',Roboto,sans-serif" font-size="15" fill="#8e8e93" font-weight="450" x="0" y="114">integration.</text>
+    font-size="26" font-weight="800" fill="#ffffff" letter-spacing="0.5">❖ CHATFLIX</text>
+  
+  <g transform="translate(35, 72)">
+    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="45">A full-stack real-time messaging ecosystem featuring a</text>
+    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="71">Netflix-inspired interface. Powered by advanced JWT</text>
+    <text font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" fill="#a1a1a6" font-weight="500" x="0" y="97">authentication protocols and seamless Socket.io integration.</text>
   </g>
 </svg>
