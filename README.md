@@ -9,9 +9,9 @@
 
 <div align="center">
 
-<a href="https://github.com/Shashankinfernape/Handesk/releases/latest"><img src="logos/handesk_banner.svg?update=playstore_v4" width="400" alt="Handesk"/></a> <a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_banner.svg?update=playstore_v4" width="400" alt="Chatflix"/></a><br>
-<a href="https://github.com/Shashankinfernape/Slidepaper"><img src="logos/slidepapers_banner.svg?update=playstore_v4" width="400" alt="Slidepapers"/></a> <a href="https://github.com/Shashankinfernape/Examinar/releases/latest"><img src="logos/examinar_banner.svg?update=playstore_v4" width="400" alt="Examinar"/></a><br>
-<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_banner.svg?update=playstore_v4" width="400" alt="Territory"/></a> <a href="https://straess.vercel.app"><img src="logos/sstraess_banner.svg?update=playstore_v4" width="400" alt="SSTRAESS"/></a>
+<a href="https://github.com/Shashankinfernape/Handesk/releases/latest"><img src="logos/handesk_banner.svg?update=playstore_v5" width="400" alt="Handesk"/></a> <a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_banner.svg?update=playstore_v5" width="400" alt="Chatflix"/></a><br>
+<a href="https://github.com/Shashankinfernape/Slidepaper"><img src="logos/slidepapers_banner.svg?update=playstore_v5" width="400" alt="Slidepapers"/></a> <a href="https://github.com/Shashankinfernape/Examinar/releases/latest"><img src="logos/examinar_banner.svg?update=playstore_v5" width="400" alt="Examinar"/></a><br>
+<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_banner.svg?update=playstore_v5" width="400" alt="Territory"/></a> <a href="https://straess.vercel.app"><img src="logos/sstraess_banner.svg?update=playstore_v5" width="400" alt="SSTRAESS"/></a>
 
 </div>
 
