@@ -1,6 +1,6 @@
-<svg width="410" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <rect x="0" y="0" width="410" height="126" rx="14" fill="#000000" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
-  <rect x="1" y="1" width="408" height="1" fill="rgba(255,255,255,0.04)"/>
+<svg width="366" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="0" y="0" width="366" height="126" rx="14" fill="#000000" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <rect x="1" y="1" width="364" height="1" fill="rgba(255,255,255,0.04)"/>
   
   
             <clipPath id="icon-clip-slidepapers">
@@ -14,6 +14,4 @@
   <text x="104" y="48" font-family="'Google Sans', Roboto, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">SLIDEPAPERS</text>
   <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#f0f0f0">Community wallpaper hub</text>
   <text x="104" y="88" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" fill="#a0a0a0">React &#183; Node.js &#183; MongoDB</text>
-
-  <g transform="translate(360, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#ffffff" d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" transform="translate(6, 6) scale(1)"/></g>
 </svg>

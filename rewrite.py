@@ -1,4 +1,5 @@
-import json
+import sys
+content = r'''import json
 import base64
 import os
 
@@ -162,3 +163,6 @@ with open(f"logos/btn_windows.svg", "w", encoding="utf-8") as f:
     
 with open(f"logos/btn_link.svg", "w", encoding="utf-8") as f:
     f.write(generate_button_svg("link"))
+'''
+with open('generate_svgs.py', 'w', encoding='utf-8') as f:
+    f.write(content)
