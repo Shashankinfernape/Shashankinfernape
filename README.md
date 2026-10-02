@@ -4,7 +4,7 @@
 
 > On the verge of discovering how far AI, software, and machines can truly go — pushing toward the boundaries of the possible.
 
-### ✦ FEATURED PROJECTS
+### ✦ Check Out Shanks Store!
 
 <div align="center">
 
