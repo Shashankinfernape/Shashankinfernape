@@ -7,7 +7,7 @@ projects = [
         "id": "handesk",
         "title": "HANdesk",
         "purpose": "DirectLink remote desktop",
-        "meta": "Windows & Android &#183; Rust &#183; H.264",
+        "meta": "Windows &amp; Android &#183; Rust &#183; H.264",
         "icon_type": "image",
         "logo_path": "logos/handesk.jpg",
         "color": "#00A4EF",
@@ -57,7 +57,7 @@ projects = [
     {
         "id": "territory",
         "title": "TERRITORY",
-        "purpose": "Real-time location tracking & state sync",
+        "purpose": "Real-time location tracking &amp; state sync",
         "meta": "Library &#183; TypeScript &#183; React",
         "icon_type": "image",
         "logo_path": "logos/territory_new.jpg",
