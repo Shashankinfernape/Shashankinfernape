@@ -11,17 +11,17 @@
             <rect x="18" y="27" width="72" height="72" rx="18" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
             
 
-  <!-- Platform Badge (Editor's Choice Style) -->
-  <g transform="translate(104, 25)">
-    <rect width="112" height="18" rx="9" fill="#00A4EF" fill-opacity="0.15" stroke="#00A4EF" stroke-opacity="0.3"/>
-    <path fill="#00A4EF" d="M6 13.5l1.63-3.63L11.25 8.25l-3.62-1.62L6 3 4.38 6.63 0.75 8.25l3.63 1.62z" transform="translate(4, 1.5) scale(0.8)"/>
-    <text x="21" y="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="800" fill="#00A4EF" letter-spacing="0.5">CROSS-PLATFORM</text>
+  <!-- Authentic Play Store "Editors' Choice" Badge -->
+  <g transform="translate(104, 26)">
+    <rect width="92" height="16" rx="3" fill="none" stroke="#a0a0a0" stroke-width="1" stroke-opacity="0.5"/>
+    <path fill="#a0a0a0" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M16.23,18L12,15.45L7.77,18l1.12-4.81l-3.73-3.23 l4.92-0.42L12,5l1.92,4.53l4.92,0.42l-3.73,3.23L16.23,18z" transform="translate(4, 1.5) scale(0.55)" opacity="0.85"/>
+    <text x="21" y="11.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#a0a0a0" opacity="0.85" letter-spacing="0.2">Editors' Choice</text>
   </g>
 
   <!-- Typography Hierarchy -->
-  <text x="104" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">HANdesk</text>
-  <text x="104" y="87" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">DirectLink remote desktop</text>
-  <text x="104" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#666666">Rust &#183; H.264 &#183; DXGI</text>
+  <text x="104" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">HANdesk</text>
+  <text x="104" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">DirectLink remote desktop</text>
+  <text x="104" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#666666">Rust &#183; H.264 &#183; DXGI</text>
 
   <g transform="translate(360, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#ffffff" d="M0 3.449L9.75 2.1v7.641H0V3.45zM10.668 1.965L22.5 0v9.74H10.668V1.965zM0 10.5h9.75v7.641L0 16.792V10.5zM10.668 10.5H22.5v9.74l-11.832-1.666V10.5z" transform="translate(7, 10.5) scale(0.95)"/></g><g transform="translate(316, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#3ddc84" d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.81.24L16.5 8.96C15.11 8.35 13.6 8 12 8s-3.11.35-4.5.96L5.66 5.69C5.5 5.39 5.14 5.3 4.85 5.45c-.3.16-.42.54-.26.85l1.84 3.18C3.82 11.28 2.21 13.9 2 17h20c-.21-3.1-1.82-5.72-4.4-7.52zM7 14.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z" transform="translate(6, 6) scale(1)"/></g>
 </svg>

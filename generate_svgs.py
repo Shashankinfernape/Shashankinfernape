@@ -166,17 +166,17 @@ def make_svg(p):
   
   {icon_content}
 
-  <!-- Platform Badge (Editor's Choice Style) -->
-  <g transform="translate(104, 25)">
-    <rect width="{p['tag_width']}" height="18" rx="9" fill="{p['color']}" fill-opacity="0.15" stroke="{p['color']}" stroke-opacity="0.3"/>
-    <path fill="{p['color']}" d="M6 13.5l1.63-3.63L11.25 8.25l-3.62-1.62L6 3 4.38 6.63 0.75 8.25l3.63 1.62z" transform="translate(4, 1.5) scale(0.8)"/>
-    <text x="21" y="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="800" fill="{p['color']}" letter-spacing="0.5">{p['tag']}</text>
+  <!-- Authentic Play Store "Editors' Choice" Badge -->
+  <g transform="translate(104, 26)">
+    <rect width="92" height="16" rx="3" fill="none" stroke="#a0a0a0" stroke-width="1" stroke-opacity="0.5"/>
+    <path fill="#a0a0a0" d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M16.23,18L12,15.45L7.77,18l1.12-4.81l-3.73-3.23 l4.92-0.42L12,5l1.92,4.53l4.92,0.42l-3.73,3.23L16.23,18z" transform="translate(4, 1.5) scale(0.55)" opacity="0.85"/>
+    <text x="21" y="11.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#a0a0a0" opacity="0.85" letter-spacing="0.2">Editors' Choice</text>
   </g>
 
   <!-- Typography Hierarchy -->
-  <text x="104" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">{p['title']}</text>
-  <text x="104" y="87" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">{p['purpose']}</text>
-  <text x="104" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#666666">{p['meta']}</text>
+  <text x="104" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">{p['title']}</text>
+  <text x="104" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">{p['purpose']}</text>
+  <text x="104" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#666666">{p['meta']}</text>
 
   {btn_svg}
 </svg>'''
