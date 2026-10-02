@@ -11,7 +11,7 @@
             <rect x="18" y="27" width="72" height="72" rx="18" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>
             
 
-  <text x="104" y="48" font-family="'Google Sans', Roboto, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">SLIDEPAPERS</text>
+  <text x="104" y="48" font-family="'Google Sans', Roboto, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">Slidepapers</text>
   <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#f0f0f0">Community wallpaper hub</text>
   <text x="104" y="88" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" fill="#a0a0a0">React &#183; Node.js &#183; MongoDB</text>
 

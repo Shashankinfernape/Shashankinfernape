@@ -17,7 +17,7 @@ projects = [
     },
     {
         "id": "chatflix",
-        "title": "CHATFLIX",
+        "title": "Chatflix",
         "purpose": "Real-time messaging",
         "meta": "React &#183; Node.js &#183; Socket.IO",
         "icon_type": "svg",
@@ -30,7 +30,7 @@ projects = [
     },
     {
         "id": "slidepapers",
-        "title": "SLIDEPAPERS",
+        "title": "Slidepapers",
         "purpose": "Community wallpaper hub",
         "meta": "React &#183; Node.js &#183; MongoDB",
         "icon_type": "image",
@@ -42,7 +42,7 @@ projects = [
     },
     {
         "id": "examinar",
-        "title": "EXAMINAR",
+        "title": "Examinar",
         "purpose": "Student's app",
         "meta": "Flutter &#183; Dart &#183; Isar",
         "icon_type": "image",
@@ -55,7 +55,7 @@ projects = [
     },
     {
         "id": "territory",
-        "title": "TERRITORY",
+        "title": "Territory",
         "purpose": "Real estate platform",
         "meta": "React &#183; FastAPI &#183; MongoDB",
         "icon_type": "image",
@@ -67,7 +67,7 @@ projects = [
     },
     {
         "id": "sstraess",
-        "title": "SSTRAESS",
+        "title": "Sstraess",
         "purpose": "JWT authentication system",
         "meta": "Node.js &#183; Monitoring",
         "icon_type": "svg",
