@@ -1,48 +1,47 @@
-<svg width="800" height="136" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="820" height="230" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Subtle radial glow for the icon container -->
-    <radialGradient id="glow-sstraess" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFC107" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#FFC107" stop-opacity="0"/>
-    </radialGradient>
-    
-    <clipPath id="card-clip">
-      <rect x="0" y="0" width="800" height="124" rx="18"/>
+    <!-- Base Card Clip Path -->
+    <clipPath id="card-clip-sstraess">
+      <rect x="8" y="8" width="804" height="214" rx="22"/>
     </clipPath>
+
+    <!-- Gradients and Shadows -->
+    <linearGradient id="bg-grad-sstraess" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#232326"/>
+      <stop offset="100%" stop-color="#141415"/>
+    </linearGradient>
+    <filter id="shadow-sstraess" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="rgba(0,0,0,0.6)"/>
+    </filter>
   </defs>
 
-  <!-- Base Card Container -->
-  <rect x="0" y="0" width="800" height="124" rx="18" fill="#0C0C0E" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+  <!-- 1. Drop Shadow & Base Glass Layer -->
+  <rect x="8" y="8" width="804" height="214"
+    rx="22" fill="url(#bg-grad-sstraess)"
+    filter="url(#shadow-sstraess)"/>
 
-  <!-- Subtle Top Edge Highlight -->
-  <path d="M18 1 L782 1 C791 1 799 9 799 18 L799 24 L1 24 L1 18 C1 9 9 1 18 1 Z" fill="rgba(255,255,255,0.04)" clip-path="url(#card-clip)"/>
+  <!-- 2. Premium Background Watermarks (Logos / Title) -->
+  <text x="410" y="125" text-anchor="middle" dominant-baseline="middle" font-family="Impact, 'Arial Black', sans-serif" font-size="160" font-weight="900" fill="rgba(255,255,255,0.04)" clip-path="url(#card-clip-sstraess)">SSTRAESS</text>
 
-  <!-- Icon Container Glow -->
-  <circle cx="48" cy="62" r="50" fill="url(#glow-sstraess)"/>
-
-  <!-- Icon Squircle -->
-  <rect x="24" y="38" width="48" height="48" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)"/>
+  <!-- 3. Foreground Sharp Logo (if applicable) -->
   
-  <!-- Icon Asset -->
-  <g transform="translate(36, 36) scale(1.1)"><g fill="#FFC107"><path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></g></g>
 
-  <!-- Typography -->
-  <!-- Title -->
-  <text x="96" y="44" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="0.5">SSTRAESS</text>
+  <!-- 5. Action Pill (Top Right) -->
+  <a href="https://github.com/Shashankinfernape/SSTRAESS/releases/latest">
+    <rect x="744" y="16" width="60" height="34" rx="17" fill="rgba(0,122,255,0.12)"/>
+    <g transform="translate(757, 21) scale(0.85)">
+      <path d="M5,20H19V18H5M19,9H15V3H9V9H5L12,16L19,9Z" fill="#007AFF"/>
+    </g>
+  </a>
 
-  <!-- Description -->
-  <text x="96" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#999999">High-intensity load testing and system stress simulation.</text>
-  <text x="96" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#999999">Features modernized UI tracking for active threshold limits.</text>
-
-  <!-- Tags -->
-  <text x="96" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="rgba(255,255,255,0.3)" letter-spacing="0.5">LOAD TESTING • SIMULATION • MONITORING</text>
-
-  <!-- Action Buttons -->
+  <!-- 6. Title and Description -->
+  <text x="35" y="50"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif"
+    font-size="24" font-weight="700" fill="#ffffff" letter-spacing="1">❖ SSTRAESS</text>
   
-            <rect x="736" y="44" width="44" height="36" rx="10" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)"/>
-            <g transform="translate(746, 50)">
-                <path fill="#ffffff" opacity="0.9" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-            </g>
-            
-  
+  <g transform="translate(35, 70)">
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="42">High-intensity load testing and system stress simulation</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="66">architectural framework. Features modernized UI tracking</text>
+    <text font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', sans-serif" font-size="15" fill="#a1a1a6" font-weight="400" letter-spacing="0.2" x="0" y="90">mechanisms to monitor active system threshold limits.</text>
+  </g>
 </svg>
