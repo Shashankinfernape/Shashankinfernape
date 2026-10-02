@@ -2,7 +2,7 @@
   <img src="banner.png" alt="Hero Banner" width="100%">
 </div>
 
-> On the verge of discovering how far AI, software, and machines can truly go — pushing toward the boundaries of the possible.
+> **“At the edge of what we know, I’m discovering how far intelligence, software, and machines can go — not to reach the limit, but to find what lies beyond it.”**
 
 <h3 align="center">Check Out Shanks Store!</h3>
 
