@@ -28,11 +28,14 @@
 
 <br/>
 
-<h3 align="center">DATA VISUALIZATION</h3>
+<div align="center">
+  <img src="logos/lang_visual.svg?v=1" width="860" alt="Most Used Languages"/>
+</div>
+
+<br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shashankinfernape&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&icon_color=7A65FD&text_color=c9c9c9" height="195" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashankinfernape&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&text_color=c9c9c9" height="195" alt="Top Languages"/>
+  <img src="logos/dev_dna.svg?v=1" width="860" alt="Developer DNA"/>
 </div>
 
 <br/>

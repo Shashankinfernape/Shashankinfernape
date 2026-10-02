@@ -1,0 +1,23 @@
+<svg width="860" height="110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="860" height="110" rx="14" fill="#000000" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="430" y="22" font-family="'Google Sans', Roboto, sans-serif" font-size="10" font-weight="600" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="3">MOST USED LANGUAGES</text>
+  <defs><clipPath id="bar-clip"><rect x="20" y="44" width="820" height="12" rx="6"/></clipPath></defs>
+  <rect x="20" y="44" width="229" height="12" fill="#3178C6" clip-path="url(#bar-clip)"/>
+  <rect x="249" y="44" width="164" height="12" fill="#7F52FF" clip-path="url(#bar-clip)"/>
+  <rect x="413" y="44" width="131" height="12" fill="#00B4AB" clip-path="url(#bar-clip)"/>
+  <rect x="544" y="44" width="114" height="12" fill="#F7DF1E" clip-path="url(#bar-clip)"/>
+  <rect x="658" y="44" width="98" height="12" fill="#CE422B" clip-path="url(#bar-clip)"/>
+  <rect x="756" y="44" width="82" height="12" fill="#3572A5" clip-path="url(#bar-clip)"/>
+  <circle cx="25" cy="78" r="4" fill="#3178C6"/>
+  <text x="34" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">TypeScript <tspan fill="#555">28%</tspan></text>
+  <circle cx="168" cy="78" r="4" fill="#7F52FF"/>
+  <text x="177" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">Kotlin <tspan fill="#555">20%</tspan></text>
+  <circle cx="311" cy="78" r="4" fill="#00B4AB"/>
+  <text x="320" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">Dart <tspan fill="#555">16%</tspan></text>
+  <circle cx="454" cy="78" r="4" fill="#F7DF1E"/>
+  <text x="463" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">JavaScript <tspan fill="#555">14%</tspan></text>
+  <circle cx="597" cy="78" r="4" fill="#CE422B"/>
+  <text x="606" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">Rust <tspan fill="#555">12%</tspan></text>
+  <circle cx="740" cy="78" r="4" fill="#3572A5"/>
+  <text x="749" y="82" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">Python <tspan fill="#555">10%</tspan></text>
+</svg>
