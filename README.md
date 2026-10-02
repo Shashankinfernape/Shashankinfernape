@@ -4,7 +4,7 @@
 
 > On the verge of discovering how far AI, software, and machines can truly go — pushing toward the boundaries of the possible.
 
-### ✦ Check Out Shanks Store!
+<h3 align="center">Check Out Shanks Store!</h3>
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 <br/>
 
-### ✦ ENGINEERING STACK
+<h3 align="center">ENGINEERING STACK</h3>
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -28,7 +28,7 @@
 
 <br/>
 
-### ✦ DATA VISUALIZATION
+<h3 align="center">DATA VISUALIZATION</h3>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Shashankinfernape&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&icon_color=7A65FD&text_color=c9c9c9" height="195" alt="GitHub Stats"/>
