@@ -1,102 +1,67 @@
 import math
 
-# =============================================
-# 1. LANGUAGE BAR SVG
-# =============================================
-langs = [
-    ("TypeScript", "#3178C6", 28),
-    ("Kotlin",     "#7F52FF", 20),
-    ("Dart",       "#00B4AB", 16),
-    ("JavaScript", "#F7DF1E", 14),
-    ("Rust",       "#CE422B", 12),
-    ("Python",     "#3572A5", 10),
+SW, SH = 860, 560
+cx_m, cy_m = 430, 282
+R = 152
+OFF = 104
+
+# id, label, cx, cy, highlight_color, main_color, dark_color, label_x, label_y
+circles_data = [
+    ("purpose",      "Purpose",      cx_m,       cy_m-OFF, "#F1948A", "#CB4335", "#7B241C", cx_m,            cy_m-OFF-int(R*0.5)),
+    ("speed",        "Speed",        cx_m-OFF,   cy_m,     "#52BE80", "#1D8348", "#0B5226", cx_m-OFF-int(R*0.5), cy_m),
+    ("quality",      "Quality",      cx_m+OFF,   cy_m,     "#BB8FCE", "#7D3C98", "#4A235A", cx_m+OFF+int(R*0.5), cy_m),
+    ("productivity", "Productivity", cx_m,       cy_m+OFF, "#5DADE2", "#1A5276", "#0D3349", cx_m,            cy_m+OFF+int(R*0.5)),
 ]
-total = sum(x[2] for x in langs)
-W, H = 860, 110
-bar_y, bar_h = 44, 12
-bar_x = 20
-bar_w = W - 40
 
-svg = f'<svg width="{W}" height="{H}" xmlns="http://www.w3.org/2000/svg">\n'
-svg += f'  <rect width="{W}" height="{H}" rx="14" fill="#000000" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>\n'
-svg += f'  <text x="{W//2}" y="22" font-family="\'Google Sans\', Roboto, sans-serif" font-size="10" font-weight="600" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="3">MOST USED LANGUAGES</text>\n'
+intersections_data = [
+    ("Consistency",     cx_m-62, cy_m-60, 11),
+    ("Innovation",      cx_m+62, cy_m-60, 11),
+    ("Detail-Oriented", cx_m-58, cy_m+68, 10),
+    ("Scalability",     cx_m+62, cy_m+68, 11),
+]
 
-# Clip path for rounded bar
-svg += f'  <defs><clipPath id="bar-clip"><rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="6"/></clipPath></defs>\n'
-cx = bar_x
-for name, color, pct in langs:
-    seg_w = int((pct / total) * bar_w)
-    svg += f'  <rect x="{cx}" y="{bar_y}" width="{seg_w}" height="{bar_h}" fill="{color}" clip-path="url(#bar-clip)"/>\n'
-    cx += seg_w
+svg = f'<svg width="{SW}" height="{SH}" xmlns="http://www.w3.org/2000/svg">\n'
+svg += f'  <rect width="{SW}" height="{SH}" rx="14" fill="#000000" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>\n'
 
-# Legend
-lx = 20
-ly = 78
-for i, (name, color, pct) in enumerate(langs):
-    pct_label = f"{round((pct/total)*100)}%"
-    svg += f'  <circle cx="{lx+5}" cy="{ly}" r="4" fill="{color}"/>\n'
-    svg += f'  <text x="{lx+14}" y="{ly+4}" font-family="Roboto, sans-serif" font-size="12" fill="#e8e8e8">{name} <tspan fill="#555">{pct_label}</tspan></text>\n'
-    lx += 143
+# Gradients
+svg += '  <defs>\n'
+for (cid, label, ccx, ccy, light, main, dark, lx, ly) in circles_data:
+    fx = int(ccx - R * 0.28)
+    fy = int(ccy - R * 0.34)
+    svg += f'    <radialGradient id="g_{cid}" cx="{ccx}" cy="{ccy}" r="{R}" fx="{fx}" fy="{fy}" gradientUnits="userSpaceOnUse">\n'
+    svg += f'      <stop offset="0%" stop-color="{light}"/>\n'
+    svg += f'      <stop offset="42%" stop-color="{main}"/>\n'
+    svg += f'      <stop offset="100%" stop-color="{dark}"/>\n'
+    svg += f'    </radialGradient>\n'
+svg += '  </defs>\n'
+
+# Circles
+for (cid, label, ccx, ccy, light, main, dark, lx, ly) in circles_data:
+    svg += f'  <circle cx="{ccx}" cy="{ccy}" r="{R}" fill="url(#g_{cid})" fill-opacity="0.80" stroke="{dark}" stroke-width="1.5"/>\n'
+
+# Glossy specular highlights
+for (cid, label, ccx, ccy, light, main, dark, lx, ly) in circles_data:
+    hx = int(ccx - R * 0.18)
+    hy = int(ccy - R * 0.33)
+    svg += f'  <ellipse cx="{hx}" cy="{hy}" rx="{int(R*0.37)}" ry="{int(R*0.2)}" fill="white" fill-opacity="0.18"/>\n'
+
+# Center core
+svg += f'  <circle cx="{cx_m}" cy="{cy_m}" r="50" fill="#080808" fill-opacity="0.72" stroke="rgba(255,255,255,0.18)" stroke-width="1.2"/>\n'
+
+# Intersection labels
+for (name, ix, iy, fs) in intersections_data:
+    svg += f'  <text x="{ix}" y="{iy}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="{fs}" font-weight="600" fill="rgba(255,255,255,0.92)" text-anchor="middle" dominant-baseline="middle">{name}</text>\n'
+
+# Center text
+svg += f'  <text x="{cx_m}" y="{cy_m-9}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">What I</text>\n'
+svg += f'  <text x="{cx_m}" y="{cy_m+9}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">Value</text>\n'
+
+# Main circle labels (bold, in outer region of each circle)
+for (cid, label, ccx, ccy, light, main, dark, lx, ly) in circles_data:
+    svg += f'  <text x="{lx}" y="{ly}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">{label}</text>\n'
 
 svg += '</svg>\n'
 
-with open("logos/lang_visual.svg", "w", encoding="utf-8") as f:
-    f.write(svg)
-print("lang_visual.svg done")
-
-
-# =============================================
-# 2. DEVELOPER DNA — Bubble Cluster SVG
-# =============================================
-SW, SH = 860, 320
-
-values = [
-    ("Purpose",         "#9D4EDD", 0.95),
-    ("Quality",         "#00C4B3", 0.90),
-    ("Innovation",      "#E50914", 0.88),
-    ("Scalability",     "#3178C6", 0.82),
-    ("Productivity",    "#F5A623", 0.80),
-    ("Detail-Oriented", "#00A4EF", 0.75),
-    ("Consistency",     "#7F52FF", 0.72),
-    ("Speed",           "#3ddc84", 0.65),
-]
-
-# Circle positions — arranged in a ring around center
-cx_c, cy_c = SW // 2, SH // 2
-ring_r = 110
-angle_step = 2 * math.pi / len(values)
-center_r = 52
-
-dna = f'<svg width="{SW}" height="{SH}" xmlns="http://www.w3.org/2000/svg">\n'
-dna += f'  <rect width="{SW}" height="{SH}" rx="14" fill="#000000" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>\n'
-dna += f'  <text x="{SW//2}" y="22" font-family="\'Google Sans\', Roboto, sans-serif" font-size="10" font-weight="600" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="3">DEVELOPER DNA</text>\n'
-
-# Draw connecting lines from center to each bubble first (behind)
-for i, (name, color, weight) in enumerate(values):
-    angle = i * angle_step - math.pi / 2
-    bx = cx_c + ring_r * math.cos(angle)
-    by = cy_c + ring_r * math.sin(angle)
-    dna += f'  <line x1="{cx_c}" y1="{cy_c}" x2="{bx:.1f}" y2="{by:.1f}" stroke="{color}" stroke-width="1" stroke-opacity="0.15"/>\n'
-
-# Draw outer bubbles
-for i, (name, color, weight) in enumerate(values):
-    angle = i * angle_step - math.pi / 2
-    bx = cx_c + ring_r * math.cos(angle)
-    by = cy_c + ring_r * math.sin(angle)
-    r = int(28 + weight * 14)  # radius scales with weight
-    pct = int(weight * 100)
-
-    dna += f'  <circle cx="{bx:.1f}" cy="{by:.1f}" r="{r}" fill="{color}" fill-opacity="0.12" stroke="{color}" stroke-width="1.5" stroke-opacity="0.6"/>\n'
-    dna += f'  <text x="{bx:.1f}" y="{by:.1f}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="9" font-weight="700" fill="{color}" text-anchor="middle" dominant-baseline="middle">{name}</text>\n'
-    dna += f'  <text x="{bx:.1f}" y="{by + 11:.1f}" font-family="Roboto, sans-serif" font-size="8" fill="rgba(255,255,255,0.4)" text-anchor="middle">{pct}%</text>\n'
-
-# Center core
-dna += f'  <circle cx="{cx_c}" cy="{cy_c}" r="{center_r}" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>\n'
-dna += f'  <text x="{cx_c}" y="{cy_c - 8}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">What Truly</text>\n'
-dna += f'  <text x="{cx_c}" y="{cy_c + 7}" font-family="\'Google Sans\', Roboto, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Matters</text>\n'
-
-dna += '</svg>\n'
-
 with open("logos/dev_dna.svg", "w", encoding="utf-8") as f:
-    f.write(dna)
-print("dev_dna.svg done")
+    f.write(svg)
+print("dev_dna.svg (Venn diagram) done")
