@@ -4,7 +4,7 @@ import base64
 projects = [
     {
         "id": "handesk",
-        "title": "HANdesk",
+        "title": "Handesk",
         "purpose": "DirectLink remote desktop",
         "meta": "Rust &#183; H.264 &#183; DXGI",
         "icon_type": "image",
@@ -24,7 +24,6 @@ projects = [
         "icon_svg": '<path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 9.5l-6 3.5v-7l6 3.5z"/>',
         "color": "#E50914",
         "buttons": [
-            {"type": "github"},
             {"type": "download_android"},
             {"type": "link"}
         ]
@@ -32,13 +31,12 @@ projects = [
     {
         "id": "slidepapers",
         "title": "SLIDEPAPERS",
-        "purpose": "Creator wallpaper platform",
+        "purpose": "Community wallpaper hub",
         "meta": "React &#183; Node.js &#183; MongoDB",
         "icon_type": "image",
         "logo_path": "logos/slidepapers.png",
         "color": "#9D4EDD",
         "buttons": [
-            {"type": "github"},
             {"type": "link"}
         ]
     },
@@ -51,7 +49,6 @@ projects = [
         "logo_path": "logos/examinar.png",
         "color": "#00C4B3",
         "buttons": [
-            {"type": "github"},
             {"type": "download_android"},
             {"type": "download_windows"}
         ]
@@ -65,7 +62,7 @@ projects = [
         "logo_path": "logos/territory_new.jpg",
         "color": "#F5A623",
         "buttons": [
-            {"type": "github"}
+            {"type": "link"}
         ]
     },
     {
