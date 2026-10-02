@@ -1,7 +1,7 @@
-<svg width="46" height="138" xmlns="http://www.w3.org/2000/svg">
-  <g transform="translate(6, 45)">
-    <rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
-    <rect x="1" y="1" width="34" height="1" rx="6" fill="rgba(255,255,255,0.08)"/>
-    <path fill="#ffffff" d="M0 3.449L9.75 2.1v7.641H0V3.45zM10.668 1.965L22.5 0v9.74H10.668V1.965zM0 10.5h9.75v7.641L0 16.792V10.5zM10.668 10.5H22.5v9.74l-11.832-1.666V10.5z" transform="translate(12, 10.5) scale(0.95)"/>
+<svg width="54" height="138" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(4, 40)">
+    <rect width="46" height="46" rx="14" fill="#000000" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+    <rect x="1" y="1" width="44" height="1" rx="6" fill="rgba(255,255,255,0.08)"/>
+    <path fill="#ffffff" d="M0 3.449L9.75 2.1v7.641H0V3.45zM10.668 1.965L22.5 0v9.74H10.668V1.965zM0 10.5h9.75v7.641L0 16.792V10.5zM10.668 10.5H22.5v9.74l-11.832-1.666V10.5z" transform="translate(11.5, 11.5) scale(1)"/>
   </g>
 </svg>
