@@ -18,21 +18,22 @@ projects = [
     {
         "id": "chatflix",
         "title": "CHATFLIX",
-        "purpose": "Real-time messaging platform",
+        "purpose": "Cinematic real-time messaging",
         "meta": "React &#183; Node.js &#183; Socket.IO",
         "icon_type": "svg",
         "icon_svg": '<path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 9.5l-6 3.5v-7l6 3.5z"/>',
         "color": "#E50914",
         "buttons": [
             {"type": "github"},
+            {"type": "download_android"},
             {"type": "link"}
         ]
     },
     {
         "id": "slidepapers",
         "title": "SLIDEPAPERS",
-        "purpose": "Developer presentation engine",
-        "meta": "React &#183; Vite",
+        "purpose": "Creator-driven wallpaper platform",
+        "meta": "React &#183; Node.js &#183; MongoDB",
         "icon_type": "image",
         "logo_path": "logos/slidepapers.png",
         "color": "#9D4EDD",
@@ -44,20 +45,22 @@ projects = [
     {
         "id": "examinar",
         "title": "EXAMINAR",
-        "purpose": "Secure testing environment",
-        "meta": "42 MB &#183; Dart &#183; Flutter",
+        "purpose": "AI study builder & exam tracker",
+        "meta": "Flutter &#183; Dart &#183; Isar",
         "icon_type": "image",
         "logo_path": "logos/examinar.png",
         "color": "#00C4B3",
         "buttons": [
-            {"type": "download"}
+            {"type": "github"},
+            {"type": "download_android"},
+            {"type": "download_windows"}
         ]
     },
     {
         "id": "territory",
         "title": "TERRITORY",
-        "purpose": "Location tracking &amp; state sync",
-        "meta": "TypeScript &#183; React",
+        "purpose": "Verified land marketplace",
+        "meta": "React &#183; FastAPI &#183; MongoDB",
         "icon_type": "image",
         "logo_path": "logos/territory_new.jpg",
         "color": "#F5A623",
@@ -68,7 +71,7 @@ projects = [
     {
         "id": "sstraess",
         "title": "SSTRAESS",
-        "purpose": "High-intensity load testing",
+        "purpose": "High-intensity API load testing",
         "meta": "Node.js &#183; Monitoring",
         "icon_type": "svg",
         "icon_svg": '<path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>',
