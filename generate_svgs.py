@@ -121,8 +121,8 @@ def render_buttons(buttons):
     return svg
 
 def make_svg(p):
-    bg_fill = "#0E0E11"
-    border_color = "rgba(255,255,255,0.05)"
+    bg_fill = "#000000"
+    border_color = "rgba(255,255,255,0.08)"
     
     # Render Icon (Larger size: 72x72)
     icon_content = ""
