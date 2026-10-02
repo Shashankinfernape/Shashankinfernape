@@ -2,8 +2,7 @@
   <img src="banner.png" alt="Hero Banner" width="100%">
 </div>
 
-> **Currently building:** Exploring advanced system architectures and AI tools.
-> **Focus:** Full-stack scalable applications and high-performance engineering.
+> On the verge of discovering how far AI, software, and machines can truly go — pushing toward the boundaries of the possible.
 
 ### ✦ FEATURED PROJECTS
 
