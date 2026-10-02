@@ -35,7 +35,7 @@
 <br/>
 
 <div align="center">
-  <img src="logos/dev_dna.svg?v=4" width="860" alt="Developer DNA"/>
+  <img src="logos/dev_dna.svg?v=4" width="480" alt="Developer DNA"/>
 </div>
 
 <br/>
