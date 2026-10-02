@@ -139,7 +139,6 @@ def make_svg(p):
   <!-- 1. Drop Shadow & Base Glass Layer -->
   <rect x="8" y="8" width="{W-16}" height="{H-16}"
     rx="22" fill="url(#bg-grad-{p['id']})"
-    stroke="{border_color}" stroke-width="2"
     filter="url(#shadow-{p['id']})"/>
 
   <!-- 2. Premium Background Watermarks (Logos / Title) -->

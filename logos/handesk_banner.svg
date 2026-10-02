@@ -22,7 +22,6 @@
   <!-- 1. Drop Shadow & Base Glass Layer -->
   <rect x="8" y="8" width="804" height="214"
     rx="22" fill="url(#bg-grad-handesk)"
-    stroke="rgba(0,0,0,0.12)" stroke-width="2"
     filter="url(#shadow-handesk)"/>
 
   <!-- 2. Premium Background Watermarks (Logos / Title) -->

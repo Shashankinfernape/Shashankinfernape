@@ -13,12 +13,12 @@
 
 <div align="center">
 
-<a href="https://github.com/Shashankinfernape/Handesk"><img src="logos/handesk_banner.svg?v=4" width="820" alt="Handesk"/></a><br>
-<a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_banner.svg?v=4" width="820" alt="Chatflix"/></a><br>
-<a href="https://github.com/Shashankinfernape/Slidepaper"><img src="logos/slidepapers_banner.svg?v=4" width="820" alt="Slidepapers"/></a><br>
-<a href="https://github.com/Shashankinfernape/Examinar"><img src="logos/examinar_banner.svg?v=4" width="820" alt="Examinar"/></a><br>
-<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_banner.svg?v=4" width="820" alt="Territory"/></a><br>
-<a href="https://github.com/Shashankinfernape/SSTRAESS"><img src="logos/sstraess_banner.svg?v=4" width="820" alt="SSTRAESS"/></a>
+<a href="https://github.com/Shashankinfernape/Handesk"><img src="logos/handesk_banner.svg?v=5" width="820" alt="Handesk"/></a>
+<a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_banner.svg?v=5" width="820" alt="Chatflix"/></a>
+<a href="https://github.com/Shashankinfernape/Slidepaper"><img src="logos/slidepapers_banner.svg?v=5" width="820" alt="Slidepapers"/></a>
+<a href="https://github.com/Shashankinfernape/Examinar"><img src="logos/examinar_banner.svg?v=5" width="820" alt="Examinar"/></a>
+<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_banner.svg?v=5" width="820" alt="Territory"/></a>
+<a href="https://github.com/Shashankinfernape/SSTRAESS"><img src="logos/sstraess_banner.svg?v=5" width="820" alt="SSTRAESS"/></a>
 
 </div>
 
