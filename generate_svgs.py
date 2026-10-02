@@ -155,8 +155,8 @@ def make_svg(p):
   {icon_content}
 
   <text x="104" y="48" font-family="'Google Sans', Roboto, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">{p['title']}</text>
-  <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">{p['purpose']}</text>
-  <text x="104" y="88" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" fill="#666666">{p['meta']}</text>
+  <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#f0f0f0">{p['purpose']}</text>
+  <text x="104" y="88" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" fill="#a0a0a0">{p['meta']}</text>
 
   {btn_svg}
 </svg>'''
