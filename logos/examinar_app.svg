@@ -12,7 +12,7 @@
             
 
   <text x="104" y="48" font-family="'Google Sans', Roboto, 'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">EXAMINAR</text>
-  <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">AI study engine &amp; tracker</text>
+  <text x="104" y="70" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">Student's app</text>
   <text x="104" y="88" font-family="Roboto, 'Segoe UI', system-ui, sans-serif" font-size="12" font-weight="500" fill="#666666">Flutter &#183; Dart &#183; Isar</text>
 
   <g transform="translate(360, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#ffffff" d="M0 3.449L9.75 2.1v7.641H0V3.45zM10.668 1.965L22.5 0v9.74H10.668V1.965zM0 10.5h9.75v7.641L0 16.792V10.5zM10.668 10.5H22.5v9.74l-11.832-1.666V10.5z" transform="translate(7, 10.5) scale(0.95)"/></g><g transform="translate(316, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#3ddc84" d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.81.24L16.5 8.96C15.11 8.35 13.6 8 12 8s-3.11.35-4.5.96L5.66 5.69C5.5 5.39 5.14 5.3 4.85 5.45c-.3.16-.42.54-.26.85l1.84 3.18C3.82 11.28 2.21 13.9 2 17h20c-.21-3.1-1.82-5.72-4.4-7.52zM7 14.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z" transform="translate(6, 6) scale(1)"/></g>

@@ -43,7 +43,7 @@ projects = [
     {
         "id": "examinar",
         "title": "EXAMINAR",
-        "purpose": "AI study engine &amp; tracker",
+        "purpose": "Student's app",
         "meta": "Flutter &#183; Dart &#183; Isar",
         "icon_type": "image",
         "logo_path": "logos/examinar.png",
@@ -56,7 +56,7 @@ projects = [
     {
         "id": "territory",
         "title": "TERRITORY",
-        "purpose": "Verified land marketplace",
+        "purpose": "Real estate platform",
         "meta": "React &#183; FastAPI &#183; MongoDB",
         "icon_type": "image",
         "logo_path": "logos/territory_new.jpg",
@@ -68,7 +68,7 @@ projects = [
     {
         "id": "sstraess",
         "title": "SSTRAESS",
-        "purpose": "High-intensity API load testing",
+        "purpose": "JWT authentication system",
         "meta": "Node.js &#183; Monitoring",
         "icon_type": "svg",
         "icon_svg": '<path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/>',
