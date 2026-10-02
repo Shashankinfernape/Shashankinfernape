@@ -18,7 +18,7 @@ projects = [
     {
         "id": "chatflix",
         "title": "CHATFLIX",
-        "purpose": "Cinematic real-time messaging",
+        "purpose": "Real-time messaging",
         "meta": "React &#183; Node.js &#183; Socket.IO",
         "icon_type": "svg",
         "icon_svg": '<path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 9.5l-6 3.5v-7l6 3.5z"/>',
@@ -32,7 +32,7 @@ projects = [
     {
         "id": "slidepapers",
         "title": "SLIDEPAPERS",
-        "purpose": "Creator-driven wallpaper platform",
+        "purpose": "Creator wallpaper platform",
         "meta": "React &#183; Node.js &#183; MongoDB",
         "icon_type": "image",
         "logo_path": "logos/slidepapers.png",
@@ -45,7 +45,7 @@ projects = [
     {
         "id": "examinar",
         "title": "EXAMINAR",
-        "purpose": "AI study builder & exam tracker",
+        "purpose": "AI study engine &amp; tracker",
         "meta": "Flutter &#183; Dart &#183; Isar",
         "icon_type": "image",
         "logo_path": "logos/examinar.png",
