@@ -6,11 +6,12 @@ projects = [
         "id": "handesk",
         "title": "HANdesk",
         "purpose": "DirectLink remote desktop",
-        "meta": "Windows · Rust · DXGI · H.264",
+        "meta": "Windows & Android · Rust · H.264",
         "icon_type": "image",
         "logo_path": "logos/handesk.jpg",
         "color": "#00A4EF",
         "buttons": [
+            {"type": "download_android"},
             {"type": "download_windows"}
         ]
     },
@@ -58,7 +59,7 @@ projects = [
         "purpose": "Architectural state management framework",
         "meta": "Library · TypeScript · Real-time Sync",
         "icon_type": "image",
-        "logo_path": "logos/territory.png",
+        "logo_path": "logos/territory_new.jpg",
         "color": "#F5A623",
         "buttons": [
             {"type": "github"}
@@ -91,6 +92,7 @@ def render_buttons(buttons):
     icon_github = "M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.45-1.15-1.11-1.46-1.11-1.46c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"
     icon_download = "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"
     icon_windows = "M0 3.449L9.75 2.1v7.641H0V3.45zM10.668 1.965L22.5 0v9.74H10.668V1.965zM0 10.5h9.75v7.641L0 16.792V10.5zM10.668 10.5H22.5v9.74l-11.832-1.666V10.5z"
+    icon_android = "M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.81.24L16.5 8.96C15.11 8.35 13.6 8 12 8s-3.11.35-4.5.96L5.66 5.69C5.5 5.39 5.14 5.3 4.85 5.45c-.3.16-.42.54-.26.85l1.84 3.18C3.82 11.28 2.21 13.9 2 17h20c-.21-3.1-1.82-5.72-4.4-7.52zM7 14.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"
     
     # Process from right to left
     for btn in buttons:
@@ -102,6 +104,16 @@ def render_buttons(buttons):
             <g transform="translate({current_x}, {(H-36)//2})">
                 <rect width="{width}" height="36" rx="18" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
                 <path fill="#ffffff" d="{icon_windows}" transform="translate(18, 10.5) scale(0.9)"/>
+                <path fill="#ffffff" d="{icon_download}" transform="translate(46, 6) scale(1)"/>
+            </g>
+            '''
+        elif t == "download_android":
+            width = 84
+            current_x -= width
+            svg += f'''
+            <g transform="translate({current_x}, {(H-36)//2})">
+                <rect width="{width}" height="36" rx="18" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+                <path fill="#3ddc84" d="{icon_android}" transform="translate(14, 6) scale(1)"/>
                 <path fill="#ffffff" d="{icon_download}" transform="translate(46, 6) scale(1)"/>
             </g>
             '''
