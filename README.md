@@ -16,11 +16,9 @@
 
 <br/>
 
-<h3 align="center">DATA VISUALIZATION</h3>
-
 <div align="center">
-  <img src="logos/dev_dna.svg?v=8" width="560" alt="Developer DNA"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashankinfernape&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&text_color=c9c9c9" width="280" alt="Top Languages"/>
+  <img src="logos/dev_dna.svg?v=9" width="560" alt="Developer DNA"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashankinfernape&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&text_color=c9c9c9&hide=html,css,jupyter%20notebook,scss&langs_count=6" width="280" alt="Top Languages"/>
 </div>
 
 <br/>
