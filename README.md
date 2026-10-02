@@ -17,8 +17,8 @@
 <br/>
 
 <div align="center">
-  <img src="logos/dev_dna.svg?v=9" width="560" alt="Developer DNA"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashankinfernape&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E2B714&text_color=c9c9c9&hide=html,css,jupyter%20notebook,scss&langs_count=6" width="280" alt="Top Languages"/>
+  <img align="top" src="logos/dev_dna.svg?v=9" width="560" alt="Developer DNA"/>
+  <img align="top" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashankinfernape&hide_border=true&bg_color=00000000&title_color=00f2fe&text_color=ffffff&hide=html,css,jupyter%20notebook,scss&langs_count=10" width="280" alt="Top Languages"/>
 </div>
 
 <br/>
