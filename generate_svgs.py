@@ -147,7 +147,6 @@ def make_svg(p):
   <!-- 3. Top Glass Sheen Highlight -->
   <rect x="8" y="8" width="{W-16}" height="{(H-16)//2}"
     rx="22" fill="url(#hl-grad-{p['id']})"/>
-  <rect x="9.5" y="9.5" width="{W-19}" height="3" rx="3" fill="rgba(255,255,255,0.4)"/>
 
   <!-- 4. Foreground Sharp Logo (if applicable) -->
   {fg_logo_svg.strip()}
