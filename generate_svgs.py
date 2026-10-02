@@ -133,8 +133,8 @@ def render_buttons(buttons):
     return svg
 
 def make_svg(p):
-    bg_fill = "#0E0E11"
-    border_color = "rgba(255,255,255,0.05)"
+    bg_fill = "#141416"
+    border_color = "rgba(255,255,255,0.06)"
     
     # Render Icon (Larger size: 72x72)
     icon_content = ""
@@ -161,8 +161,19 @@ def make_svg(p):
     btn_svg = render_buttons(p["buttons"])
 
     svg = f'''<svg width="{W}" height="{TOTAL_H}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <filter id="grain-{p['id']}" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" result="noise" />
+      <feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 0.08 0" in="noise" />
+    </filter>
+  </defs>
+
+  <!-- Base Matte Charcoal -->
   <rect x="0" y="0" width="{W}" height="{H}" rx="14" fill="{bg_fill}" stroke="{border_color}" stroke-width="1"/>
-  <rect x="1" y="1" width="{W-2}" height="1" fill="rgba(255,255,255,0.04)"/>
+  <!-- Organic Film Grain Overlay -->
+  <rect x="0" y="0" width="{W}" height="{H}" rx="14" filter="url(#grain-{p['id']})" style="pointer-events:none;"/>
+  <!-- Subtle Top Highlight -->
+  <rect x="1" y="1" width="{W-2}" height="1" fill="rgba(255,255,255,0.03)"/>
   
   {icon_content}
 
