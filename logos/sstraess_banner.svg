@@ -1,15 +1,23 @@
-<svg width="400" height="112" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <rect x="0" y="0" width="400" height="100" rx="12" fill="#0E0E11" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
-  <rect x="1" y="1" width="398" height="1" fill="rgba(255,255,255,0.04)"/>
+<svg width="410" height="138" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect x="0" y="0" width="410" height="126" rx="14" fill="#0E0E11" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <rect x="1" y="1" width="408" height="1" fill="rgba(255,255,255,0.04)"/>
   
   
-        <rect x="12" y="22" width="56" height="56" rx="14" fill="#FFC107" fill-opacity="0.15" stroke="#FFC107" stroke-opacity="0.3" stroke-width="1"/>
-        <g transform="translate(28, 38) scale(1.1)"><g fill="#FFC107"><path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></g></g>
+        <rect x="18" y="27" width="72" height="72" rx="18" fill="#FFC107" fill-opacity="0.15" stroke="#FFC107" stroke-opacity="0.3" stroke-width="1"/>
+        <g transform="translate(38, 47) scale(1.4)"><g fill="#FFC107"><path fill="currentColor" d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></g></g>
         
 
-  <text x="80" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#ffffff" letter-spacing="0.2">SSTRAESS</text>
-  <text x="80" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#a0a0a0">High-intensity load testing simulation</text>
-  <text x="80" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#666666">Web app &#183; Node.js &#183; Monitoring</text>
+  <!-- Platform Badge (Editor's Choice Style) -->
+  <g transform="translate(104, 25)">
+    <rect width="64" height="18" rx="9" fill="#FFC107" fill-opacity="0.15" stroke="#FFC107" stroke-opacity="0.3"/>
+    <path fill="#FFC107" d="M6 13.5l1.63-3.63L11.25 8.25l-3.62-1.62L6 3 4.38 6.63 0.75 8.25l3.63 1.62z" transform="translate(4, 1.5) scale(0.8)"/>
+    <text x="21" y="12.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="9" font-weight="800" fill="#FFC107" letter-spacing="0.5">WEB APP</text>
+  </g>
 
-  <g transform="translate(356, 34)"><rect width="32" height="32" rx="10" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#ffffff" d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" transform="translate(4, 4) scale(1)"/></g>
+  <!-- Typography Hierarchy -->
+  <text x="104" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff" letter-spacing="0.2">SSTRAESS</text>
+  <text x="104" y="87" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#a0a0a0">High-intensity load testing</text>
+  <text x="104" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#666666">Node.js &#183; Monitoring</text>
+
+  <g transform="translate(360, 45)"><rect width="36" height="36" rx="12" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/><path fill="#ffffff" d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" transform="translate(6, 6) scale(1)"/></g>
 </svg>
