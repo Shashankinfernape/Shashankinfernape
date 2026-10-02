@@ -8,9 +8,9 @@
 
 <div align="center">
 
-<a href="https://github.com/Shashankinfernape/Handesk"><img src="logos/handesk_app.svg?v=13" alt="Handesk"/></a><a href="https://github.com/Shashankinfernape/Handesk/releases/latest"><img src="logos/btn_android.svg?v=13" alt="Android"/></a><a href="https://github.com/Shashankinfernape/Handesk/releases/latest"><img src="logos/btn_windows.svg?v=13" alt="Windows"/></a> <a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_app.svg?v=13" alt="Chatflix"/></a><a href="https://github.com/Shashankinfernape/Chatflix/releases/latest"><img src="logos/btn_android.svg?v=13" alt="Android"/></a><a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/btn_link.svg?v=13" alt="Web"/></a>
-<a href="https://slidepapers.vercel.app/"><img src="logos/slidepapers_app.svg?v=13" alt="Slidepapers"/></a><a href="https://slidepapers.vercel.app/"><img src="logos/btn_link.svg?v=13" alt="Web"/></a> <a href="https://github.com/Shashankinfernape/Examinar"><img src="logos/examinar_app.svg?v=13" alt="Examinar"/></a><a href="https://github.com/Shashankinfernape/Examinar/releases/latest"><img src="logos/btn_android.svg?v=13" alt="Android"/></a><a href="https://github.com/Shashankinfernape/Examinar/releases/latest"><img src="logos/btn_windows.svg?v=13" alt="Windows"/></a>
-<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_app.svg?v=13" alt="Territory"/></a><a href="https://github.com/Shashankinfernape/Territory"><img src="logos/btn_link.svg?v=13" alt="Web"/></a> <a href="https://github.com/Shashankinfernape/SSTRAESS"><img src="logos/sstraess_app.svg?v=13" alt="SSTRAESS"/></a><a href="https://sstraess.vercel.app/"><img src="logos/btn_link.svg?v=13" alt="Web"/></a>
+<a href="https://github.com/Shashankinfernape/Handesk/releases/latest"><img src="logos/handesk_app.svg?v=12" alt="Handesk"/></a> <a href="https://github.com/Shashankinfernape/Chatflix"><img src="logos/chatflix_app.svg?v=12" alt="Chatflix"/></a>
+<a href="https://slidepapers.vercel.app/"><img src="logos/slidepapers_app.svg?v=12" alt="Slidepapers"/></a> <a href="https://github.com/Shashankinfernape/Examinar/releases/latest"><img src="logos/examinar_app.svg?v=12" alt="Examinar"/></a>
+<a href="https://github.com/Shashankinfernape/Territory"><img src="logos/territory_app.svg?v=12" alt="Territory"/></a> <a href="https://sstraess.vercel.app/"><img src="logos/sstraess_app.svg?v=12" alt="SSTRAESS"/></a>
 
 </div>
 
