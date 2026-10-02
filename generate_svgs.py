@@ -176,5 +176,5 @@ def make_svg(p):
     return svg
 
 for p in projects:
-    with open(f"logos/{p['id']}_banner.svg", "w", encoding="utf-8") as f:
+    with open(f"logos/{p['id']}_app.svg", "w", encoding="utf-8") as f:
         f.write(make_svg(p))
